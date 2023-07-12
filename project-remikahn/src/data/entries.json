@@ -1,6 +1,0 @@
-[
-    {"title": "Cat cafe!", "date":"Monday, 11/21/2022", "desc": "Petted a cat today. Feeling good.", "image":"img/placeholder.jpg", "alt":"journal thumbnail", "mood":"🥶 Chill", "journal":"🎉 Fun"}, 
-    {"title": "Trader Joe's run", "date":"Sunday, 11/20/2022", "desc": "Went grocery shopping for first time in 3 weeks", "image":"img/placeholder.jpg", "alt":"journal thumbnail", "mood":"🥶 Chill", "journal":"😊 Personal"}, 
-    {"title": "Nothing today.", "date":"Saturday, 11/19/2022", "desc": "Did nothing today...", "alt":"journal thumbnail", "mood":"🥶 Chill", "journal":"😊 Personal"}, 
-    {"title": "Sickly >:(", "date":"Friday, 11/18/2022", "desc": "Think I'm getting sick :(", "image":"img/placeholder.jpg", "alt":"journal thumbnail", "mood":"🥶 Chill", "journal":"😊 Personal"}
-]

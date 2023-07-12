@@ -1,9 +1,0 @@
-[    
-    {"displayName": "Basic", "fontName": "Open Sans", "fontBase": "sans-serif"},
-    {"displayName": "Delicate Serif", "fontName": "IBM Plex Serif", "fontBase": "serif"}, 
-    {"displayName": "Strong Serif", "fontName": "Bree Serif", "fontBase": "serif"},
-    {"displayName": "Italic Serif", "fontName": "Noto Serif Display", "fontBase": "serif"},
-    {"displayName": "Regular Sans Serif", "fontName": "Source Sans Pro", "fontBase": "sans-serif"},
-    {"displayName": "Bubbly", "fontName": "Balsamiq Sans", "fontBase": "cursive"},
-    {"displayName": "Typescript", "fontName": "Cutive Mono", "fontBase": "monospace"}    
-]
