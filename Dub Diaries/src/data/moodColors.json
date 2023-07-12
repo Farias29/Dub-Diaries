@@ -1,0 +1,9 @@
+[    
+    {"name":"Orange", "mood": "Bubbly"},
+    {"name":"Red", "mood": "Angry"},
+    {"name":"Yellow", "mood": "Sparkly"},
+    {"name":"Green", "mood": "Calm"},
+    {"name":"Blue", "mood": "Chill"},
+    {"name":"Indigo", "mood": "Complicated"},
+    {"name":"Pink", "mood": "Cute"} 
+]

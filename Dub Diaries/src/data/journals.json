@@ -1,0 +1,5 @@
+[
+    {"title":"Personal Journal", "type":"😊 Personal", "img":"img/sept.jpg", "alt":"Personal", "butOne":"View Entries", "butTwo":"Add Entry", "butThree":"Rename"},
+    {"title":"School Journal", "type":"📚 School", "img":"img/dec.JPG", "alt":"School", "butOne":"View Entries", "butTwo":"Add Entry", "butThree":"Rename"},
+    {"title":"Fun Journal", "type":"🎉 Fun", "img":"img/oct.jpg", "alt":"Fun", "butOne":"View Entries", "butTwo":"Add Entry", "butThree":"Rename"}
+]

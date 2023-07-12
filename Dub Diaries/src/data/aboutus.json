@@ -1,0 +1,6 @@
+[
+  {"name":"Johnny", "descr":"I am a fourth year studying informatics, and I'm from Yakima, Washington!", "img":"img/johnnypic.jpg"},
+  {"name":"Mari", "descr":"I am a third year studying informatics, and I'm from San Francisco, California!", "img":"img/maripic.jpg"},
+  {"name":"Remi", "descr":"I am a third year studying informatics, and I'm from Tokyo, Japan!", "img":"img/remipic.jpg"},
+  {"name":"Shiina", "descr":" I am a third year studying informatics, and I'm from the Bay Area, California", "img":"img/shiinapic.jpeg"}
+]
