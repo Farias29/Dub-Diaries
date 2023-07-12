@@ -1,0 +1,50 @@
+body {
+    background-color: #f3f3f3;
+    padding: 0.5em;
+}
+
+h2.contextquestion {
+    background-color: rgba(135, 196, 255, 0.8);
+}
+
+p.contextanswer {
+    background-color: rgba(200, 227, 255, 0.67);
+}
+
+h2.question1 {
+    background-color: lavenderblush;
+}
+
+p.answer1 {
+    background-color: lavender;
+}
+
+h2.question2 {
+    background-color: rgb(240, 255, 246);
+}
+
+p.answer2 {
+    background-color: rgba(47, 47, 255, 0.219);
+}
+
+h2.question3 {
+    background-color: floralwhite;
+    color: navy;
+}
+
+p.answer3 {
+    background-color: beige;
+    font-size: larger;
+}
+
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2, p {
+    padding: 25px 25px 25px 25px;
+}

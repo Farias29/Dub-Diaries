@@ -1,0 +1,10 @@
+[
+    {"prompt":"What was your favorite meal of the day and why?", "journal":"fun", "desc":""},
+    {"prompt":"What's something you did today that you're proud of?", "journal":"fun", "desc":""},
+    {"prompt":"What are your grateful for today?", "journal":"fun", "desc":""},
+    {"prompt":"What was the weather like today?", "journal":"fun", "desc":""}, 
+    {"prompt":"How are you feeling and why?", "journal":"fun", "desc":""}, 
+    {"prompt":"What are you looking forward to?", "journal":"fun", "desc":""}, 
+    {"prompt":"What were the highlights and lowlights of your day?", "journal":"fun", "desc":""}, 
+    {"prompt":"What's something new that you learned today?", "journal":"fun", "desc":""}  
+]

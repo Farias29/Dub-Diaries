@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Remi, Shiina, Mari, Johnny">
+  <meta name="DubDiaries" content="A platform for journaling">
+  <title>DubDiaries</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/static.css">
+</head>
+
+<header class="navHeader">
+  <nav>
+    <div id="hamburger-menu"><a href="#"><i class="fa fa-bars" aria-label="menu"></i></a></div>
+    <a href="index.html" class="logo">
+      <span class="material-icons" aria-label="Home" id="diaryLogo">auto_stories</span>
+    </a>
+    <ul class="nav-links">
+      <li class="test nav-item"><a href="choosejournal.html">Journals</a></li>
+      <li class="nav-item"><a href="stats.html">Stats</a></li>
+      <li class="nav-item"><a href="aboutus.html">About Us</a></li>
+      <li class="nav-item"><a href="login.html">Log In</a></li>
+    </ul>
+  </nav>
+</header>
+
+<body>
+  
+  <main>
+    
+    <div class="container">
+      <div class="row">
+        
+        <!--hero image-->
+        <div class="col-12">
+          <div class="d-flex row py-5">
+            <div class="col-md-6">
+              <div class="hero-desc">
+                <h1 class="app-title">DubDiaries</h1>
+                <h3 class="app-desc">Explore your inner self through journaling everyday</h3>
+                <h4 class="app-q">What did you do today? Start a new entry!</h4>
+              </div>
+            </div>
+            
+            <div class="col-md-6">
+              <img src="img/writingillus.svg" class="hero-image" alt="journal and girl" loading="lazy">
+            </div>
+          </div>
+        </div>
+
+      <div class="d-flex px-4 py-3 justify-content-center">
+        <h2>Recent Entries</h2>
+      </div>
+
+      <form class="search-bar" action="action_page.php">
+        <input type="text" placeholder="Search entries" name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+
+      <!--add card-->
+      <div class="d-flex col-md-6 col-lg-4 px-4 py-3">
+        <div class="card mb-4">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-auto">
+                <img class="col-sm-12" id="homecardpic" src="img/placeholder.jpg" alt="journal thumbnail">
+              </div>
+              <div class="col-sm">
+                <h2 class="card-title">Write today's entry</h2>
+                <p class="card-text">What did you do today? How are you feeling?</p>
+                <a href="diary.html" class="btn btn-outline-primary" aria-label="Write new entry">Write new entry</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- journal card 1 -->
+      <div class="d-flex col-md-6 col-lg-4 px-4 py-3">
+        <div class="card mb-4">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-auto">
+                <img class="col-sm-12" id="homecardpic"  src="img/placeholder.jpg" alt="journal thumbnail">
+              </div>
+              <div class="col-sm">
+                <h2 class="card-title">Yesterday</h2>
+                <p class="card-text">Feeling: great - had a good day!</p>
+                <a href="diary_entry.html" class="btn btn-outline-dark" aria-label="View entry">View entry</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- journal card 2 -->
+      <div class="d-flex col-md-6 col-lg-4 px-4 py-3">
+        <div class="card mb-4">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-auto">
+                <img class="col-sm-12" id="homecardpic" src="img/placeholder.jpg" alt="journal thumbnail">
+              </div>
+              <div class="col-sm">
+                <h2 class="card-title">Sunday, 11/20/2022</h2>
+                <p class="card-text">Feeling: good, not too shabby</p>
+                <a href="diary_entry.html" class="btn btn-outline-dark" aria-label="View entry">View entry</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- journal card 3 -->
+      <div class="d-flex col-md-6 col-lg-4 px-4 py-3">
+        <div class="card mb-4">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-auto">
+                <img class="col-sm-12" id="homecardpic"  src="img/placeholder.jpg" alt="journal thumbnail">
+              </div>
+              <div class="col-sm">
+                <h2 class="card-title">Saturday, 11/19/2022</h2>
+                <p class="card-text">Feeling: okay - didn't do much</p>
+                <a href="diary_entry.html" class="btn btn-outline-dark" aria-label="View entry">View entry</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- journal card 4 -->
+      <div class="d-flex col-md-6 col-lg-4 px-4 py-3">
+        <div class="card mb-4">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-auto">
+                <img class="col-sm-12" id="homecardpic"  src="img/placeholder.jpg" alt="journal thumbnail">
+              </div>
+              <div class="col-sm">
+                <h2 class="card-title">Friday, 11/18/2022</h2>
+                <p class="card-text">Feeling: good day!</p>
+                <a href="diary_entry.html" class="btn btn-outline-dark" aria-label="View entry">View entry</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</main>
+
+<footer class="container">
+  <p>&copy; 2022 INFO 340: Remi, Shiina, Mari, Johnny</p>
+</footer>
+
+<script src="index.js"></script>
+
+</body>
+</html>

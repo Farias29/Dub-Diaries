@@ -1,0 +1,426 @@
+* {
+    box-sizing: border-box;
+}
+
+
+#diaryLogo {
+    font-size: 37px;
+    color:rgb(255, 255, 255);
+    padding-top: 0.5rem;
+}
+
+#diaryLogo::after {
+    content: " DubDiaries";
+    font-family: 'ABeeZee', Courier, monospace;
+    color:rgb(255, 255, 255);
+    font-size: 21px;
+}
+
+.logo {
+    padding: 0;
+    padding-left: 2.5rem;
+    display: inline;
+    height: 100%;
+}
+
+nav {
+    width: 100%;
+    background-color: #3A3B4D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+}
+
+.search-bar {
+    padding-left: 2rem;
+    padding-top: 0.7rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding-bottom: 0;
+    height: 100%;
+    margin: 0;
+}
+
+.nav-item {
+    padding: 0;
+    transition: 0;
+}
+
+.nav-item a {
+    vertical-align: middle;
+    color: #ffffff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0;
+    padding-top: 0.7rem;
+    padding-right: 0.9rem;
+    padding-left: 0.9rem;
+    height: 100%;
+}
+
+.navHeader {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+
+.nav-item:hover {
+    background-color: white;
+    transition: 0.7s;
+}
+
+.nav-item:hover a {
+    color: #3A3B4D;
+}
+
+
+html {
+    height: 100%;
+}
+
+form {
+    padding-top: 1em;
+}
+
+body {
+
+    height: inherit;
+}
+
+header {
+    padding-top: 4rem;
+    color: #3A3B4D;
+    text-align: center;
+}
+
+
+.page p {
+    color: #666666;
+}
+
+#lastcard {
+    background-color: #DBF0EB;
+}
+
+#aboutusheader {
+    color:black;
+    text-align: left;
+    size:5vw;
+}
+
+#aboutus {
+    margin-top:3em;
+}
+
+#aboutus img {
+    height: 25vw;
+    object-fit: cover;
+}
+.aboutus{
+    font-size: 5rem;
+}
+
+.card-body{
+    background-color: #DBF0EB;
+    text-align: center;
+    box-shadow: 0 8px 40px rgb(49 78 46  15%);
+}
+
+
+#choose {
+    margin-top: 3em;
+}
+
+.lastCard{
+    color: #333;
+    border: none;
+    font-size: 2rem;
+    border-radius: 1rem;
+    width:100%;
+    background-color: inherit;
+    padding: 0.5rem;
+    outline: none;
+    height: 3.5rem;
+    text-align: center;
+}
+
+
+
+.border img {
+    transition: .5s ease;
+    padding: .5rem;
+}
+
+.border img:hover{
+    box-shadow: 0 0 0 .5rem rgb(84, 11, 84);
+    transition: .5s ease;
+}
+
+#stats{
+    margin:3rem;
+    padding: 1rem;
+}
+
+img {
+    border-radius: 2%;
+    max-width: 100%;
+    height: auto;
+}
+
+.app-title {
+    font-size: 4rem;
+    margin: 5rem 0 0;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    color:#7D45DA;
+}
+
+.app-desc {
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+    color:#333;
+}
+
+.app-q {
+    font-weight: normal;
+    color:#333;
+}
+
+.hero-image {
+    padding-right: 7rem;
+    padding-top: 5rem;
+    height: 100%;   
+    width: auto;
+}
+
+.hero-desc {
+    padding: 5rem;
+}
+
+.card-title {
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+footer {
+    padding: 2rem;
+}
+
+
+.diaryPage {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    height: inherit;
+}
+
+.all {
+    display: flex;
+    height: 100%;
+}
+
+.page-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #E0DAEF;
+    padding: 2em;
+    font-family: "Inter", sans-serif, serif;
+    width: auto;
+    height: inherit;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.page-column::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+.page-column::-webkit-scrollbar-track {
+    border: none;
+    border-radius: 10px;
+}
+.page-column::-webkit-scrollbar-thumb {
+    background: darkgray;
+    border-radius: 10px;
+}
+.page-column::-webkit-scrollbar-thumb:hover {
+    background: gray;
+}
+
+table {
+    font-family: "Inter", sans-serif, serif;
+}
+
+
+.exit-icon {
+    font-size: 35px;
+    size: 1rem;
+    transition: transform .3s ease-in-out;
+    color: #666666;
+}
+
+.button-box {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.exit-icon:hover{
+    transform: rotate(-90deg);
+    color: #3A3B4D;
+}
+
+
+.title {
+    border: none;
+    font-size: 30px;
+    border-radius: 1rem;
+    width: 60rem;
+    background-color: inherit;
+    padding: 0rem 0.5rem;
+    outline: none;
+    height: 45px;
+    color: gray;
+}
+
+.textbox:hover {
+    background: #cacadf;
+    transition: 0.2s ease-in;
+}
+
+.journalDate {
+    font-size: 20px;
+    padding: 0rem 0.5rem;
+    border-radius: 1rem;
+    width: 10rem;
+    text-align: center;
+    border: none;
+    background-color: inherit;
+    outline: none;
+    height: 45px;
+    color: gray;
+}
+
+.journalText {
+    margin: 0.2rem 0rem;
+    font-size: 17px;
+
+    height: 100%;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: inherit;
+    outline: none;
+    color: black;
+    resize: none;
+}
+
+.journalText::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+ 
+}
+.journalText::-webkit-scrollbar-track {
+    border: none;
+    border-radius: 10px;
+}
+.journalText::-webkit-scrollbar-thumb {
+    background: darkgray;
+    border-radius: 10px;
+}
+.journalText::-webkit-scrollbar-thumb:hover {
+    background: gray;
+}
+
+.journalText::placeholder {
+    color: black;
+}
+
+
+.settings-column {
+    font-family: "Inter", sans-serif, serif;
+    flex-basis: 18rem;
+    background-color: #CCB6FA;
+    height: inheit;
+}
+
+.settings-menu-container {
+    display: flex;
+    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0;
+}
+
+.setting-menu {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.settings-link:hover {
+    transition: 0.1s ease-in;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+}
+
+hr.settings-line {
+    margin: 0.5rem 0;
+    color:black;
+   
+    opacity: 70%;
+    border-top: 3px solid;
+}
+
+.settings-link {
+    color: black;
+    text-decoration-line: none;
+}
+
+
+@media (min-width: 598px) {
+    #hamburger-menu{
+        display: none;
+    } 
+    .nav-links {
+        list-style: none;
+        display: flex;
+        padding-right: 2rem;
+    }
+    
+    nav a {
+        display: inline-block;
+        padding: 1rem;
+        padding-bottom: 0;
+        color: #ffffff;
+        font-size: 1.2rem;
+        text-decoration: none;
+        font-weight: 600;
+    }
+}
+
+#nav a{
+    display:none;
+}
+
+nav ul{
+    display:none;
+}
+
+#hamburger-menu, #hamburger-menu a:visited{
+    font-size: 2.5rem;
+    color:white;
+}
+
+
+.loginform{
+   text-align: center;
+   
+}
+
